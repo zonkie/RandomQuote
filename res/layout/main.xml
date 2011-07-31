@@ -4,9 +4,26 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/Quote"
+	/>
+	<EditText
+	android:id="@+id/Quote"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+	<Button
+	android:id="@+id/go"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/press"
+	/>
+	<Button
+	android:id="@+id/genRan"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/genRan"
+	/>
 </LinearLayout>
